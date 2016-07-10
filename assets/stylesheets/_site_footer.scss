@@ -1,0 +1,46 @@
+/**
+ * Site footer
+ */
+.site-footer {
+    border-top: 1px solid $gray;
+    padding-top: $spacing-unit;
+    color: #ccc;
+}
+
+.site-footer ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.site-footer a { color: #ddd; }
+
+.footer-heading {
+    font-size: 18px;
+    margin-bottom: $spacing-unit / 2;
+}
+
+.footer-brand-logo {
+    width: 70px;
+}
+
+.footer-brand-logo img {
+    width: 50px;
+    height: 50px;
+    margin-top: 3px;
+}
+
+.contact-list,
+.social-media-list {
+    list-style: none;
+    margin-left: 0;
+}
+
+.social-media-links a,
+.social-media-links a:hover,
+.social-media-links a:active, {
+    text-decoration: none;
+}
+.social-media-links a:hover {
+    color: darken($gray-dark, 15%);
+}
+.social-media-links a { padding-right: 10px; }

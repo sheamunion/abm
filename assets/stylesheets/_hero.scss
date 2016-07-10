@@ -1,0 +1,70 @@
+// /**
+//  * Hero content
+//  */
+
+.overlay {
+    background: #707070;
+    height: 100%;
+    width: 100%;
+    opacity: 0.7;
+    top: 0;
+    left: 0;
+    position: absolute;
+}
+
+.hero {
+    position: relative;
+    background-size: cover;
+    background-position: 20% 30%;
+    background-repeat: no-repeat;
+    background-image: url('../../img/woman_looking_down.jpeg');
+    height: 100vh;
+}
+
+.hero-content {
+    position: relative;
+    height: 90vh;
+    width: 90vw;
+    max-width: 875px;
+    margin: auto;
+}
+
+.hero img {
+    position: absolute;
+    width: 100%;
+    bottom: 10%;
+    z-index: 1000;
+}
+
+.fade-in {
+  opacity: 0;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+  -webkit-transition-property: opacity, left, top, width;
+  -webkit-transition-duration: 1s, 0.1s, 0.1s, 0.1s;
+  -webkit-transition-timing-function: cubic-bezier(0.33, 0, 0.2, 1);
+  -webkit-transition-delay: 0;
+  -moz-transition-property: opacity, left, top, width;
+  -moz-transition-duration: 1s, 0.1s, 0.1s, 0.1s;
+  -moz-transition-timing-function: cubic-bezier(0.33, 0, 0.2, 1);
+  -moz-transition-delay: 0;
+  -ms-transition-property: opacity, left, top, width;
+  -ms-transition-duration: 1s, 0.1s, 0.1s, 0.1s;
+  -ms-transition-timing-function: cubic-bezier(0.33, 0, 0.2, 1);
+  -ms-transition-delay: 0;
+  -o-transition-property: opacity, left, top, width;
+  -o-transition-duration: 1s, 0.1s, 0.1s, 0.1s;
+  -o-transition-timing-function: cubic-bezier(0.33, 0, 0.2, 1);
+  -o-transition-delay: 0;
+  -webkit-transition-property: opacity, left, top, width;
+         transition-property: opacity, left, top, width;
+  -webkit-transition-duration: 1s, 0.1s, 0.1s, 0.1s;
+         transition-duration: 1s, 0.1s, 0.1s, 0.1s;
+  -webkit-transition-timing-function: cubic-bezier(0.33, 0, 0.2, 1);
+         transition-timing-function: cubic-bezier(0.33, 0, 0.2, 1);
+  -transition-delay: 0;
+
+  &.is-loaded {
+    opacity: 1;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+  }
+}

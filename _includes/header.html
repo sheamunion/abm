@@ -1,0 +1,98 @@
+<header>
+  <nav class="navbar navbar-default topnav" role="navigation">
+    <div class="container topnav">
+      <!-- Brand and toggle get grouped for better mobile display -->
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="{{ site.base_url }}/"><img src="/img/ABM_White_Logo_Mark01.png" alt="Brand"></a>
+      </div>
+      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <ul class="nav navbar-nav navbar-right">
+          {% if page.url == '/about.html' %}
+            <li class="active dropdown">
+          {% else %}
+            <li class="dropdown">
+          {% endif %}
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">About<span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="/about">Us</a></li>
+                <li><a href="/about#mission">Mission</a></li>
+                <li><a href="/about#executive_team">Executive Team</a></li>
+              </ul>
+            </li>
+
+          {% if page.url == '/products.html' %}
+            <li class="active dropdown">
+          {% else %}
+            <li class="dropdown">
+          {% endif %}
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Products<span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="/products">All</a></li>
+                <li><a href="/vivace">VIVACE</a></li>
+
+            <!--
+              DISABLED LINKS UNTIL CONTENT IS READY
+              -->
+
+              <!--
+                <li><a href="/peptide_glide.html">3x Peptide Glide</a></li>
+                <li><a href="/binteren_mask.html">Binteren Mask</a></li>
+                <li><a href="/amniospray.html">AmnioSpray</a></li>
+              -->
+              </ul>
+            </li>
+            <li {% if page.url == '/news.html' %}class="active"{% endif %} >
+              <a href="/news">News</a>
+            </li>
+            <li {% if page.url == '/contact.html' %}class="active"{% endif %} >
+              <a href="/contact">Contact</a>
+            </li>
+        </ul>
+
+        <!--
+          DISABLED LINKS UNTIL CONTENT IS READY
+          -->
+
+        <!--
+            CARE CENTERS
+           -->
+<!--
+        <a href="care_centers/care_centers.html" class="dropdown-button" data-activates="navDropdownCareCenters">
+            Care Centers<i class="material-icons right">arrow_drop_down</i>
+          </a>
+          <ul id="navDropdownCareCenters" class="dropdown-content">
+            <li><a class="underline" href="care_centers/care_centers.html">Care Centers</a></li>
+            <li><a href="care_centers/experience.html">Experience</a></li>
+            <li><a href="care_centers/training.html">Training</a></li>
+            <li><a href="care_centers/locations.html">Locations</a></li>
+            <li><a href="care_centers/start.html">Start a Care Center</a></li>
+          </ul>
+        <li>
+        -->
+
+        <!--
+            TECHNOLOGY
+           -->
+<!--
+        <a href="technology/technology.html" class="dropdown-button" data-activates="navDropdownTechnology">
+            Technology<i class="material-icons right">arrow_drop_down</i>
+          </a>
+        </li>
+        <ul id="navDropdownTechnology" class="dropdown-content">
+          <li><a class="underline" href="technology.html">Technology</a></li>
+          <li><a href="technology/regulatory_expertise.html">Regulatory Expertise</a></li>
+          <li><a href="technology/ip.html">Intellectual Property</a></li>
+          <li><a href="technology/partner.html">Partner With Us</a></li>
+        </ul>
+        -->
+      </div>
+    </div>
+  </nav>
+  <div class="divider"></div>
+</header>

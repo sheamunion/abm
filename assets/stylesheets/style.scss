@@ -1,0 +1,94 @@
+---
+---
+
+@import"bootstrap";
+@import"site_footer";
+@import"hero";
+
+.text-white { color: $white; }
+.gray-light { color: $gray-light; }
+.background-gray-dark { background-color: $gray-dark; }
+.background-gray { background-color: $gray; }
+.background-gray-light { background-color: $gray-light; }
+.background-gray-very-light { background-color: $gray-very-light; }
+.margin-25-0 { margin: 25px 0px; }
+.margin-top-1 { margin-top: 1em; }
+.margin-top-25 { margin-top: 25px; }
+.margin-top-50 { margin-top: 50px; }
+.margin-top-100 { margin-top: 100px; }
+.margin-50-0 { margin: 50px 0px; }
+.margin-bottom-25 { margin-bottom: 25px; }
+.margin-bottom-50 { margin-bottom: 50px; }
+.line-height-2 { line-height: 2em; }
+.line-height-4 { line-height: 4em; }
+.padding-left-3 { padding-left: 3em; }
+.max-height-500 { max-height: 500px; }
+
+.underline { text-decoration: underline; }
+.row-black { background-color: $gray-base; }
+.row-gray-very-dark { background-color: $gray-very-dark; }
+
+.divider {
+	height: 1px;
+  overflow: hidden;
+ }
+
+.container > .navbar-header { margin: 0; }
+
+.navbar { margin-bottom: 0px; }
+
+.navbar-default {
+	background-color: $skin-tone;
+	border: none;
+}
+
+.navbar-brand {	padding: 2px; }
+
+.navbar-brand img { width: 55px; }
+
+.navbar-default .navbar-nav > li > a { color: $white; }
+
+.navbar-default .navbar-nav > .active > a {
+	color: $white;
+	background-color: rgba(0,0,0,0.1);
+}
+
+.navbar-default .navbar-nav > .active > a:hover {
+	color: $white;
+	// background-color: rgba(0,0,0,0.2);
+	// transition: background-color .3s;
+}
+
+.navbar-default .navbar-nav > li > a:hover {
+	color: $white;
+	background-color: rgba(0,0,0,0.1);
+	transition: background-color .3s;
+}
+
+.navbar-toggle { background-color: $white; }
+
+.profile-pic {
+    max-width: 200px;
+    margin-top: 50px;
+}
+
+.z-depth-3 { box-shadow: 0 12px 15px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19); }
+
+.table-bordered > tbody > tr > td.line-height-4 { line-height: 4em; }
+
+.vivace-headline-md-and-up {
+	font-weight: 300;
+	margin-top: 2em;
+	font-size: 6em;
+}
+
+.vivace-headline-sm-and-down {
+	margin-top: 0.5em;
+	font-size: 6em;
+}
+
+.vivace-subheader {
+	margin-bottom: 1em;
+  font-size: 2em;
+  font-style: italic;
+}
