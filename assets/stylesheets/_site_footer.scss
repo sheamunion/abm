@@ -4,7 +4,8 @@
 .site-footer {
     border-top: 1px solid $gray;
     padding-top: $spacing-unit;
-    color: #ccc;
+    color: #ddd;
+    font-size: $font-size-small;
 }
 
 .site-footer ul {
@@ -14,20 +15,20 @@
 
 .site-footer a { color: #ddd; }
 
-.footer-heading {
-    font-size: 18px;
-    margin-bottom: $spacing-unit / 2;
-}
+// .footer-heading {
+//     font-size: 18px;
+//     margin-bottom: $spacing-unit / 2;
+// }
 
-.footer-brand-logo {
-    width: 70px;
-}
+// .footer-brand-logo {
+//     width: 70px;
+// }
 
-.footer-brand-logo img {
-    width: 50px;
-    height: 50px;
-    margin-top: 3px;
-}
+// .footer-brand-logo img {
+//     width: 50px;
+//     height: 50px;
+//     margin-top: 3px;
+// }
 
 .contact-list,
 .social-media-list {
