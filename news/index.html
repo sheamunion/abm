@@ -1,0 +1,21 @@
+---
+layout: page
+title: "News &amp; Events"
+description: Recent news, events, and press releases from Aesthetics BioMedical, Inc.
+---
+<main>
+	<div class="jumbotron">
+  	<h1 class="text-center"><em>{{ page.title }}</em></h1>
+  </div>
+  <div class="container">
+  <div class="row">
+  	<div class="col-xs-12 col-sm-10 col-sm-offset-1 col-md-6 col-md-offset-3">
+			<ul>
+			  {% for post in site.posts %}
+			    <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+			  {% endfor %}
+			</ul>
+  	</div>
+  </div>
+	</div>
+</main>
