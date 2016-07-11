@@ -39,6 +39,7 @@
 .line-height-2 { line-height: 2em; }
 .line-height-3 { line-height: 3em !important; }
 .line-height-4 { line-height: 4em; }
+.line-height-5 { line-height: 5em; }
 
 .padding-left-3 { padding-left: 3em; }
 .padding-right-1 { padding-right: 1em; }
@@ -46,6 +47,7 @@
 .max-height-500 { max-height: 500px; }
 .max-width-100 { max-width: 100px; }
 .width-3 { width: 3em !important; }
+.width-5 { width: 5em !important; }
 
 .underline { text-decoration: underline; }
 
@@ -112,4 +114,19 @@
 	margin-bottom: 1em;
   font-size: 2em;
   font-style: italic;
+}
+
+ul.posts {
+  list-style-type: none;
+  margin-bottom: 2em;
+  padding-left: 0;
+}
+
+ul.posts li {
+  margin-bottom: 1.5em;
+}
+
+ul.posts .date {
+  margin-right: 0.3em;
+  display: inline-block;
 }

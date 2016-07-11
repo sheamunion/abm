@@ -3,6 +3,7 @@ layout: post
 title:  "Why partner with Aesthetics BioMedical?"
 date:   2016-06-20 16:41:19 -0500
 author: Tim Shanahan
+description: Whether you are a practitioner with a great new idea, startup company looking to make a name for yourself or an ongoing concern wanting to breakthrough market resistance, you can benefit from the clinical expertise and regulatory knowhow ABM can offer!
 categories: partnerships
 ---
 <div class="pull-right max-width-100">
@@ -70,5 +71,3 @@ __Integrity__ – It is in the vanguard of everything we do and demonstrated in 
 		</div>
 	</div>
 </div>
-
-For more information on how ABM’s regulatory team can help you overcome barriers please [send us a message](/contact) or call us at 1.800.726.5029
