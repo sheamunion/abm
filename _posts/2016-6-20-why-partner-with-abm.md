@@ -5,6 +5,7 @@ date:   2016-06-20 16:41:19 -0500
 author: Tim Shanahan
 description: Whether you are a practitioner with a great new idea, startup company looking to make a name for yourself or an ongoing concern wanting to breakthrough market resistance, you can benefit from the clinical expertise and regulatory knowhow ABM can offer!
 categories: partnerships
+permalink: why-partner-with-aesthetics-biomedical
 ---
 <div class="pull-right max-width-100">
 	<img class="img-responsive" src="/favicon.png" alt="Brand logo">
@@ -40,7 +41,7 @@ __Integrity__ – It is in the vanguard of everything we do and demonstrated in 
 <div class="margin-25-0">
 	<div class="row margin-bottom-1">
 		<div class="col-xs-2 col-xs-offset-1 col-sm-3 col-sm-offset-0 text-center">
-			<a href="/regulatory" alt=""><span class="flag-icon flag-icon-us flag-icon-squared line-height-3 width-3 img-circle"></span></a>
+			<a href="/expert-in-us-fda-requirements" alt=""><span class="flag-icon flag-icon-us flag-icon-squared line-height-3 width-3 img-circle"></span></a>
 		</div>
 		<div class="col-xs-8">
 			to learn more about USFDA requirements
@@ -48,7 +49,7 @@ __Integrity__ – It is in the vanguard of everything we do and demonstrated in 
 	</div>
 	<div class="row margin-bottom-1">
 		<div class="col-xs-2 col-xs-offset-1 col-sm-3 col-sm-offset-0 text-center">
-			<span class="flag-icon flag-icon-ca flag-icon-squared line-height-3 width-3 img-circle "></span>
+			<a href="/canadian-regulatory-environment"><span class="flag-icon flag-icon-ca flag-icon-squared line-height-3 width-3 img-circle "></span></a>
 		</div>
 		<div class="col-xs-8">
 			to learn more about Health Canada requirements
@@ -56,7 +57,7 @@ __Integrity__ – It is in the vanguard of everything we do and demonstrated in 
 	</div>
 	<div class="row margin-bottom-1">
 		<div class="col-xs-2 col-xs-offset-1 col-sm-3 col-sm-offset-0 text-center">
-			<a href=""><span class="width-3">{% include icon-ce.svg %}</span></a>
+			<a href="/experts-in-ce-marking-aesthetics-biomedical"><span class="width-3">{% include icon-ce.svg %}</span></a>
 		</div>
 		<div class="col-xs-8">
 			to learn more about European requirements
@@ -64,10 +65,10 @@ __Integrity__ – It is in the vanguard of everything we do and demonstrated in 
 	</div>
 	<div class="row">
 		<div class="col-xs-2 col-xs-offset-1 col-sm-3 col-sm-offset-0 text-center">
-			<img class="img-circle line-height-3 width-3" src="/favicon.png" alt="">
+			<a href="/contact"><img class="img-circle line-height-3 width-3" src="/favicon.png" alt=""></a>
 		</div>
 		<div class="col-xs-8">
-				to send a note to someone at ABM
+				to contact ABM
 		</div>
 	</div>
 </div>
