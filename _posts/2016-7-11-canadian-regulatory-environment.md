@@ -4,6 +4,7 @@ title:  "Canadian Regulatory Environment"
 date:   2016-07-11 16:41:19 -0500
 author: Tim Shanahan
 description: USFDA, EU CE Marking and Health Canada market access gives both credibility and the best chance of success. This is why ABM always targets these three key regulatory applications at the same time.
+permalink: canadian-regulatory-environment
 ---
 
 <div class="pull-right max-width-100">

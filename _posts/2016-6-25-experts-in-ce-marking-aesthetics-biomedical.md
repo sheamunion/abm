@@ -4,6 +4,7 @@ title:  "Aesthetics BioMedical: Experts in CE Marking"
 date:   2016-06-25 16:41:19 -0500
 author: Tim Shanahan
 description: ABM’s regulatory team has a keen appreciation of the complexities of CE Marking. However we have reduced it to just another process – a linear process with dozens of stages and in each stage there may be 1000’s of potential actions, but only one right choice.
+permalink: experts-in-ce-marking-aesthetics-biomedical
 ---
 
 <div class="pull-right max-width-100">
@@ -26,7 +27,3 @@ __ABM’s__ regulatory team has a keen appreciation of the complexities of CE Ma
 > <small>W. Edwards Deming</small>
 
 __ABM__ has another advantage; we know that for CE Marking — __everything is about to change__. The three principal medical device directives are about to become two medical device regulations. ISO 13485:2003 the backbone of every company’s CE Marking compliance has become ISO 13485:2016 with a more than a dozen changes to that Standard alone. ABM has already implemented these changes nearly two years ahead of schedule.
-
-__ABM’s__ executive team and regulatory experts stay on top of requirements by participating in a host of national and international forums, standards writing efforts, advisory committees, and by periodically meeting with regulatory agencies right around the world. We manage and implement change before it is mandatory to do so.
-
-__ABM__ is the “can-do” partner every company in this dynamic industry should have.
