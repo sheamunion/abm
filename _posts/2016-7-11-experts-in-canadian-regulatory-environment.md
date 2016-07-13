@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Experts in the Canadian Regulatory Environment - Aesthetics BioMedical
+title:  Experts in the Canadian Regulatory Environment
 date:   2016-07-11 16:41:19 -0500
 author: Tim Shanahan
 description: Aesthetics BioMedical is intimately familiar with Canadian requirements which make market access significantly easier.

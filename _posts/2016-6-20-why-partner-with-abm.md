@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Why Partner With Aesthetics BioMedical? - Aesthetics BioMedical
+title:  Why Partner With Aesthetics BioMedical?
 date:   2016-06-20 16:41:19 -0500
 author: Tim Shanahan
 description: Whether you are a practitioner with a great new idea, startup company looking to make a name for yourself or an ongoing concern wanting to breakthrough market resistance, you can benefit from the clinical expertise and regulatory knowhow Aesthetics BioMedical can offer!

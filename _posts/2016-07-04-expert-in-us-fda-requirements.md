@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Experts in US FDA Requirements - Aesthetics BioMedical
+title:  Experts in US FDA Requirements
 date:   2016-07-04 16:41:19 -0500
 author: Tim Shanahan
 description: Aesthetics BioMedical regulatory experts plan pre-clinical and clinical manufacturer's regulatory obligations testing; write user manuals; labeling; assembly instructions, validations and verifications, inspection and test plans and regulatory market submissions and even stay with the design through the first few production runs to ensure what is made is exactly what was wanted.

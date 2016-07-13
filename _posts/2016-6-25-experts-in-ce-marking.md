@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Experts in CE Marking - Aesthetics BioMedical
+title:  Experts in CE Marking
 date:   2016-06-25 16:41:19 -0500
 author: Tim Shanahan
 description: Aesthetics BioMedical’s regulatory team has a keen appreciation of the complexities of CE Marking. However we have reduced it to just another process – a linear process with dozens of stages and in each stage there may be 1000’s of potential actions, but only one right choice.
