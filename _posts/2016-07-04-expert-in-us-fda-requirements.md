@@ -1,11 +1,11 @@
 ---
 layout: post
-title:  "Expert in US FDA Requirements"
+title:  Experts in US FDA Requirements
 date:   2016-07-04 16:41:19 -0500
 author: Tim Shanahan
-description: Whether you are a practitioner with a great new idea, startup company looking to make a name for yourself or an ongoing concern wanting to breakthrough market resistance, you can benefit from the clinical expertise and regulatory knowhow ABM can offer!
+description: Aesthetics BioMedical regulatory experts plan pre-clinical and clinical manufacturer's regulatory obligations testing; write user manuals; labeling; assembly instructions, validations and verifications, inspection and test plans and regulatory market submissions and even stay with the design through the first few production runs to ensure what is made is exactly what was wanted.
 categories: partnerships
-permalink: expert-in-us-fda-requirements
+permalink: /news/expert-in-us-fda-requirements
 ---
 <div class="pull-left">
 	<img class="img-responsive" src="/assets/img/icon-fda.png">
@@ -15,12 +15,12 @@ permalink: expert-in-us-fda-requirements
 
 <div class="clearfix"></div>
 
-__Not at ABM__, our team of experts has many years of experience navigating the regulatory maze with alacrity. Minimum investment, maximum result. Whether its devices, cosmeceuticals, supplements, or blood/tissues for autologous use or for transplantation we know FDA market clearance opens doors right around the world. It is the most coveted regulatory clearance a product can attain and our experts go for that right from the start.
+__Not at Aesthetics BioMedical__, our team of experts has many years of experience navigating the regulatory maze with alacrity. Minimum investment, maximum result. Whether its devices, cosmeceuticals, supplements, or blood/tissues for autologous use or for transplantation we know FDA market clearance opens doors right around the world. It is the most coveted regulatory clearance a product can attain and our experts go for that right from the start.
 
-ABM experts embed themselves right at the conceptualization of new products. Learning firsthand what the customer wants and the practitioner needs. From the beginning ABM regulatory experts plan pre-clinical and clinical
+Aesthetics BioMedical experts embed themselves right at the conceptualization of new products. Learning firsthand what the customer wants and the practitioner needs. From the beginning Aesthetics BioMedical regulatory experts plan pre-clinical and clinical
 manufacturer's regulatory obligations testing; write user manuals; labeling; assembly instructions, validations and verifications, inspection and test plans and regulatory market submissions and even stay with the design through the first few production runs to ensure what is made is exactly what was wanted. Along the way time to market is markedly compressed; costs are minimized and product quality heightened. Regulatory know-how coupled with clinical expertise means we never waste resources going the wrong way.
 
-Ongoing FDA compliance is just as important and fast market clearance and ABM experts have this squared away as well. Within ABM’s operations we have accounted for a wide range of processes and requirements including:
+Ongoing FDA compliance is just as important and fast market clearance and Aesthetics BioMedical experts have this squared away as well. Within Aesthetics BioMedical’s operations we have accounted for a wide range of processes and requirements including:
 
 <div class="row">
 	<div class="col-xs-12 col-sm-6">
