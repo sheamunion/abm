@@ -13,6 +13,10 @@
       </div>
       <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
         <ul class="nav navbar-nav navbar-right">
+
+<!--
+      ABOUT
+ -->
           {% if page.url == '/about.html' %}
             <li class="active dropdown">
           {% else %}
@@ -23,18 +27,65 @@
                 <li><a href="/about">Us</a></li>
                 <li><a href="/about#mission">Mission</a></li>
                 <li><a href="/about#executive_team">Executive Team</a></li>
+                <li><a href="/about#advisors">Key Advisors</a></li>
+                <li><a href="/about#board">Board of Directors</a></li>
               </ul>
             </li>
-
+<!--
+      PRODUCTS
+ -->
           {% if page.url == '/products.html' %}
             <li class="active dropdown">
           {% else %}
             <li class="dropdown">
           {% endif %}
-              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Products<span class="caret"></span></a>
-              <ul class="dropdown-menu">
+              <a href="#" id="dLabel" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Products<span class="caret"></span></a>
+                <ul class="dropdown-menu multi-level" role="menu" aria-labelledby="dropdownMenu">
+                  <li class="dropdown-submenu">
+                    <a tabindex="-1" href="#">Vivace Expeirence</a>
+                    <ul class="dropdown-menu">
+                      <li><a href="#boost">Boost</a></li>
+                      <li><a href="#glide">Glide</a></li>
+                    </ul>
+                  </li>
+                <li><a href="/products/vivace">Vivace</a></li>
                 <li><a href="/products/all">All</a></li>
-                <li><a href="/products/vivace">VIVACE</a></li>
+              </ul>
+            </li>
+<!--
+      REGULATORY
+ -->
+          {% if page.url == '/regulatory.html' %}
+            <li class="active dropdown">
+          {% else %}
+            <li class="dropdown">
+          {% endif %}
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Regulatory<span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="#service">Service</a></li>
+                <li><a href="#products">Produts</a></li>
+              </ul>
+            </li>
+<!--
+      MEDIA
+ -->
+          {% if page.url == '/media.html' %}
+            <li class="active dropdown">
+          {% else %}
+            <li class="dropdown">
+          {% endif %}
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Media<span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="#press">Press</a></li>
+                <li><a href="/news">News</a></li>
+                <li><a href="#mediakit">Media Kit</a></li>
+              </ul>
+            </li>
+            <li {% if page.url == '/contact_us.html' %}class="active"{% endif %} >
+              <a href="/contact_us">Contact</a>
+            </li>
+
+        </ul>
 
             <!--
               DISABLED LINKS UNTIL CONTENT IS READY
@@ -45,30 +96,23 @@
                 <li><a href="/binteren_mask.html">Binteren Mask</a></li>
                 <li><a href="/amniospray.html">AmnioSpray</a></li>
               -->
-              </ul>
-            </li>
-            <li {% if page.url == '/news.html' %}class="active"{% endif %} >
-              <a href="/news">News</a>
-            </li>
-            <li {% if page.url == '/contact_us.html' %}class="active"{% endif %} >
-              <a href="/contact_us">Contact</a>
-            </li>
-            {% if site.twitter_username %}
-            <li>
-              {% include icon-twitter.html username=site.twitter_username %}
-            </li>
+            <!-- {% if site.twitter_username %}
+              <li>
+                {% include icon-twitter.html username=site.twitter_username %}
+              </li>
             {% endif %}
+
             {% if site.facebook_username %}
-            <li>
-              {% include icon-facebook.html username=site.facebook_username %}
-            </li>
+              <li>
+                {% include icon-facebook.html username=site.facebook_username %}
+              </li>
             {% endif %}
+
             {% if site.youtube_username %}
-            <li>
-              {% include icon-youtube.html username=site.youtube_username %}
-            </li>
-            {% endif %}
-        </ul>
+              <li>
+                {% include icon-youtube.html username=site.youtube_username %}
+              </li>
+            {% endif %} -->
 
         <!--
           DISABLED LINKS UNTIL CONTENT IS READY
