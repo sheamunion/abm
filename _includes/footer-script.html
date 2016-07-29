@@ -11,5 +11,13 @@
     $('.hero-content').imagesLoaded({ background: true }, function(){
       $('.hero-content.fade-in').addClass('is-loaded');
     });
+
+
+		$('.dropdown-submenu>a').unbind('click').click(function(e){
+			$(this).next('ul').toggle();
+			e.stopPropagation();
+			e.preventDefault();
+		});
+
   });
 </script>
