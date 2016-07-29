@@ -13,6 +13,7 @@
       </div>
       <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
         <ul class="nav navbar-nav navbar-right">
+
           {% if page.url == '/about.html' %}
             <li class="active dropdown">
           {% else %}
@@ -31,20 +32,17 @@
           {% else %}
             <li class="dropdown">
           {% endif %}
-              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Products<span class="caret"></span></a>
-              <ul class="dropdown-menu">
+              <a href="#" id="dLabel" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Products<span class="caret"></span></a>
+                <ul class="dropdown-menu multi-level" role="menu" aria-labelledby="dropdownMenu">
+                  <li class="dropdown-submenu">
+                    <a tabindex="-1" href="#">Vivace Expeirence</a>
+                    <ul class="dropdown-menu">
+                      <li><a href="#boost">Boost</a></li>
+                      <li><a href="#glide">Glide</a></li>
+                    </ul>
+                  </li>
+                <li><a href="/products/vivace">Vivace</a></li>
                 <li><a href="/products/all">All</a></li>
-                <li><a href="/products/vivace">VIVACE</a></li>
-
-            <!--
-              DISABLED LINKS UNTIL CONTENT IS READY
-              -->
-
-              <!--
-                <li><a href="/peptide_glide.html">3x Peptide Glide</a></li>
-                <li><a href="/binteren_mask.html">Binteren Mask</a></li>
-                <li><a href="/amniospray.html">AmnioSpray</a></li>
-              -->
               </ul>
             </li>
             <li {% if page.url == '/news.html' %}class="active"{% endif %} >
@@ -55,6 +53,16 @@
             </li>
 
         </ul>
+
+            <!--
+              DISABLED LINKS UNTIL CONTENT IS READY
+              -->
+
+              <!--
+                <li><a href="/peptide_glide.html">3x Peptide Glide</a></li>
+                <li><a href="/binteren_mask.html">Binteren Mask</a></li>
+                <li><a href="/amniospray.html">AmnioSpray</a></li>
+              -->
             <!-- {% if site.twitter_username %}
               <li>
                 {% include icon-twitter.html username=site.twitter_username %}
