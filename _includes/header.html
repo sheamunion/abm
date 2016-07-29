@@ -57,8 +57,18 @@
                 <li><a href="#products">Produts</a></li>
               </ul>
             </li>
-            <li {% if page.url == '/news.html' %}class="active"{% endif %} >
-              <a href="/news">News</a>
+
+          {% if page.url == '/media.html' %}
+            <li class="active dropdown">
+          {% else %}
+            <li class="dropdown">
+          {% endif %}
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Media<span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="#press">Press</a></li>
+                <li><a href="/news">News</a></li>
+                <li><a href="#mediakit">Media Kit</a></li>
+              </ul>
             </li>
             <li {% if page.url == '/contact_us.html' %}class="active"{% endif %} >
               <a href="/contact_us">Contact</a>
