@@ -1,13 +1,14 @@
 ---
 layout: page
-title: Contact Us
-description: Contact Aesthetics BioMedical
-permalink: /contact_us
+title: Request a Product Demo
+description: Requst a Demo of Our Products
+permalink: /products/request_a_product_demo
 ---
 <div class="row text-center">
   <div class="col-xs-12">
     <ol class="breadcrumb">
       <li><a href="/">Home</a></li>
+      <li><a href="/products/all">Products</a></li>
       <li class="active">{{ page.title }}</li>
     </ol>
   </div>
@@ -18,7 +19,23 @@ permalink: /contact_us
   </div>
   <div class="row">
   	<div class="col-xs-10 col-xs-offset-1 col-md-4 col-md-offset-4">
-			<form action="//formspree.io/sales@aestheticsbiomed.com" role="form" method="POST">
+			<form action="//formspree.io/tim@aestheticsbiomed.com.com" role="form" method="POST">
+			 	<p><strong>What product(s) are you interested in?</strong><small> (required)</small></p>
+		    <div class="form-group">
+			    <div class="checkbox" required>
+					  <label>
+					    <input type="checkbox" name="product" value="Vivace">
+					    Vivace
+					  </label>
+					</div>
+					<div class="checkbox">
+					  <label><input type="checkbox" name="product" value="Boost">Boost</label>
+					</div>
+					<div class="checkbox">
+					  <label><input type="checkbox" name="product" value="Glide">Glide</label>
+					</div>
+		    </div>
+
 		    <div class="form-group">
 		      <label for="name">What's your name?</label><small> (required)</small>
 		      <input type="text" name="name" class="form-control" required>
@@ -35,7 +52,7 @@ permalink: /contact_us
 		      <input type="phone" name="phone" class="form-control">
 		    </div>
 
-	      <p><strong>How would you describe yourself?</strong><small> (required)</small></p>
+	      <p><strong>How would you describe yourself?</strong></p>
 		    <div class="form-group">
 			    <div class="checkbox">
 					  <label>
@@ -51,29 +68,20 @@ permalink: /contact_us
 					</div>
 					<div class="checkbox">
 					  <label>
-					    <input type="checkbox" name="funnel" value="Potential Partner">
-					    Potential Partner
-					  </label>
-					</div>
-					<div class="checkbox">
-					  <label>
-					    <input type="checkbox" name="funnel" value="Inventor">
-					    Inventor
+					    <input type="checkbox" name="funnel" value="Partner">
+					    Partner
 					  </label>
 					</div>
 		    </div>
 
 		    <div class="form-group">
-		      <label for="message">Type your message here:</label><small> (required)</small>
-		      <textarea name="message" class="form-control" rows="4" width="100%" required></textarea>
+		      <label for="message">Type your message here:</label>
+		      <textarea name="message" class="form-control" rows="4" width="100%"></textarea>
 		    </div>
 
 		    <div class="text-center">
 		      <input type="hidden" name="_next" value="/contact/thanks">
-		      <input type="submit" class="btn btn-lg btn-primary" value="Send form now">
-		      <br>
-		      <br>
-		      <p>or <a href="mailto:sales@aestheticsbiomed.com">drop us a simple email</a></p>
+		      <input type="submit" class="btn btn-lg btn-primary" value="Request Demo Now">
 		    </div>
 		  </form>
   	</div>
