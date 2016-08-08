@@ -24,8 +24,7 @@ $brand-warning:         #f0ad4e !default;
 $brand-danger:          #d9534f !default;
 
 $white: 								#fff !default;
-$skin-tone:							#d9b792 !default;
-// $skin-tone: 						#A38678 !default;
+$skin-tone:							#B6A79A !default;
 
 //== Scaffolding
 //
@@ -367,7 +366,7 @@ $container-lg:                 $container-large-desktop !default;
 //##
 
 // Basics of a navbar
-$navbar-height:                    60px !default;
+$navbar-height:                    75px !default;
 $navbar-margin-bottom:             $line-height-computed !default;
 $navbar-border-radius:             $border-radius-base !default;
 $navbar-padding-horizontal:        floor(($grid-gutter-width / 2)) !default;
@@ -375,7 +374,7 @@ $navbar-padding-vertical:          (($navbar-height - $line-height-computed) / 2
 $navbar-collapse-max-height:       340px !default;
 
 $navbar-default-color:             $white;
-$navbar-default-bg:                $skin-tone;
+$navbar-default-bg:                $gray-base;
 $navbar-default-border:            darken($navbar-default-bg, 6.5%) !default;
 
 // Navbar links
@@ -800,11 +799,11 @@ $badge-border-radius:         10px !default;
 $breadcrumb-padding-vertical:   8px !default;
 $breadcrumb-padding-horizontal: 15px !default;
 //** Breadcrumb background color
-$breadcrumb-bg:                 #f5f5f5 !default;
+$breadcrumb-bg:                 $skin-tone !default; //#f5f5f5 !default;
 //** Breadcrumb text color
-$breadcrumb-color:              #ccc !default;
+$breadcrumb-color:              $white !default; //#ccc !default;
 //** Text color of current page in the breadcrumb
-$breadcrumb-active-color:       $gray-light !default;
+$breadcrumb-active-color:       $gray-dark !default;
 //** Textual separator for between breadcrumb elements
 $breadcrumb-separator:          "/" !default;
 

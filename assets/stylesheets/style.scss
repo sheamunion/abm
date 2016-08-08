@@ -56,19 +56,17 @@
 	height: 1px;
   overflow: hidden;
  }
+.divider-3 { height: 3px; }
 
 .container > .navbar-header { margin: 0; }
 
 .navbar { margin-bottom: 0px; }
 
 .navbar-default {
-	background-color: $skin-tone;
 	border: none;
 }
 
-.navbar-brand {	padding: 2px; }
-
-.navbar-brand img { width: 55px; }
+.navbar-brand {	padding: 7px; }
 
 .navbar-default .navbar-nav > li > a { color: $white; }
 
