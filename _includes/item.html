@@ -1,0 +1,17 @@
+<div class="item">
+
+  <a class="item" href="{{ site.baseurl }}{{ item.url }}">
+    <img src="{{ item.image }}" alt="{{ item.name }}" class="thumbnail"/>
+    <p>{{ item.name }}</p>
+  </a>
+
+  <button class="snipcart-add-item"
+    data-item-name="{{ item.name }}"
+    data-item-id="{{ item.sku }}"
+    data-item-image="{{ item.image }}"
+    data-item-url="{{ site.baseurl }}"
+    data-item-price="{{ item.price }}">
+    Buy it for {{ item.price }} $
+  </button>
+
+</div>

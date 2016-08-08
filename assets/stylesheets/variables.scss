@@ -24,7 +24,7 @@ $brand-warning:         #f0ad4e !default;
 $brand-danger:          #d9534f !default;
 
 $white: 								#fff !default;
-$skin-tone:							#d9b792 !default;
+$skin-tone:							#B6A79A !default;
 // $skin-tone: 						#A38678 !default;
 
 //== Scaffolding
@@ -375,7 +375,7 @@ $navbar-padding-vertical:          (($navbar-height - $line-height-computed) / 2
 $navbar-collapse-max-height:       340px !default;
 
 $navbar-default-color:             $white;
-$navbar-default-bg:                $skin-tone;
+$navbar-default-bg:                $gray-base;
 $navbar-default-border:            darken($navbar-default-bg, 6.5%) !default;
 
 // Navbar links

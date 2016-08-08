@@ -19,8 +19,11 @@ url: "http://yourdomain.com" # the base hostname & protocol for your site
 twitter_username: aestheticsbiomed
 facebook_username: aestheticsbiomed
 youtube_username: aestheticsbiomed
+api_key: MTNiYjZiMzItODliOC00MTc4LWFkYmYtZDBiZWUwMDVjMjNmNjM2MDU2NzkyNjQ3ODQ4NjIx
 
 # Build settings
 markdown: kramdown
 sass:
   sass_dir: assets/stylesheets
+collections:
+  - items
