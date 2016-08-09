@@ -34,9 +34,14 @@
 
 .hero img {
     position: absolute;
-    width: 100%;
-    bottom: 10%;
+    width: 490px;
+    max-width: 100%;
+    bottom: 50%;
     z-index: 1000;
+
+    @media (max-width: $grid-float-breakpoint) {
+        bottom: 35%;
+    }
 }
 
 .fade-in {

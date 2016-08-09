@@ -4,8 +4,9 @@
 
 
 .breadcrumb {
+  width: 100%;
   padding: $breadcrumb-padding-vertical $breadcrumb-padding-horizontal;
-  margin-bottom: $line-height-computed;
+  // margin-bottom: $line-height-computed;
   list-style: none;
   background-color: $breadcrumb-bg;
 
