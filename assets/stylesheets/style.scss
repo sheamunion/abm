@@ -21,6 +21,9 @@
 
 .brand-font {
 		font-family: novocentoWide;
+    @media (max-width: $grid-float-breakpoint) {
+    		font-size: 0.9em;
+    }
 }
 
 .text-white { color: $white; }
@@ -146,3 +149,7 @@ ul.posts .date {
 }
 
 address { margin: 0; }
+
+.headline-container {
+
+}
