@@ -17,7 +17,7 @@
     background-size: cover;
     background-position: 20% 30%;
     background-repeat: no-repeat;
-    background-image: url('../img/woman_looking_down.jpeg');
+    background-image: url('../img/face_bw.png');
     height: 100vh;
 }
 
@@ -25,15 +25,23 @@
     position: relative;
     height: 90vh;
     width: 90vw;
-    max-width: 875px;
     margin: auto;
+}
+
+.hero-headline {
+    padding-top: 45vh;
 }
 
 .hero img {
     position: absolute;
-    width: 100%;
-    bottom: 10%;
+    width: 490px;
+    max-width: 100%;
+    bottom: 50%;
     z-index: 1000;
+
+    @media (max-width: $grid-float-breakpoint) {
+        bottom: 35%;
+    }
 }
 
 .fade-in {
