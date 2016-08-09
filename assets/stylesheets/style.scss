@@ -57,6 +57,9 @@
   overflow: hidden;
  }
 .divider-3 { height: 3px; }
+.divider-25 { height: 25px; }
+.divider-110 { height: 110px; }
+.divider-gold { background-color: $skin-tone; }
 
 .container > .navbar-header { margin: 0; }
 
@@ -67,6 +70,12 @@
 }
 
 .navbar-brand {	padding: 7px; }
+
+.navbar-brand img {
+		max-width: 100%;
+		height: auto;
+		width: auto\9;
+}
 
 .navbar-default .navbar-nav > li > a { color: $white; }
 
@@ -86,8 +95,6 @@
 	background-color: rgba(0,0,0,0.1);
 	transition: background-color .3s;
 }
-
-.navbar-toggle { background-color: $white; }
 
 .profile-pic {
     max-width: 200px;
@@ -129,3 +136,5 @@ ul.posts .date {
   margin-right: 0.3em;
   display: inline-block;
 }
+
+address { margin: 0; }
