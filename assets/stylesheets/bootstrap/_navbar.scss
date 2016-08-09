@@ -204,6 +204,7 @@
 
   > img {
     display: block;
+    float: left;
   }
 
   @media (min-width: $grid-float-breakpoint) {
