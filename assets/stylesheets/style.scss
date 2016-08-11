@@ -26,6 +26,13 @@
     }
 }
 
+.section-heading {
+	font-size: $font-size-base;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+
 .text-white { color: $white; }
 .gray-light { color: $gray-light; }
 
@@ -83,7 +90,14 @@
 	border: none;
 }
 
-.navbar-brand {	padding: 7px; }
+.navbar-brand {
+		padding: 7px;
+		@media (max-width: $screen-md) {
+			img {
+					max-width: 341px;
+			}
+		}
+}
 
 .img-center {
 		display: block;
@@ -153,6 +167,34 @@ ul.posts .date {
 
 address { margin: 0; }
 
-.headline-container {
+.about-header {
+		background-image: url('../img/face_bw_about_4.png');
+		background-size: cover;
+	  background-repeat: no-repeat;
+	  background-position: center 60%;
+	  height: 90vh;
+
+	  @media (max-width: $grid-float-breakpoint) {
+				background-position: 35%;
+	  }
+}
+
+.about-header img {
+    position: absolute;
+    width: 490px;
+    max-width: 100%;
+    z-index: 1000;
+  	padding: 8px;
+
+	  @media (min-width: $screen-xs) and (max-width: $screen-sm) {
+    		left: 50%;
+		  	top: 87%;
+		  	width: 322px;
+	  }
+
+	  @media (min-width: $screen-sm) {
+		  	left: 50%;
+		  	top: 50%;
+	  }
 
 }
