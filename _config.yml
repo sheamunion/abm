@@ -19,6 +19,7 @@ url: "http://yourdomain.com" # the base hostname & protocol for your site
 twitter_username: aestheticsbiomed
 facebook_username: aestheticsbiomed
 youtube_username: aestheticsbiomed
+linkedin_username: aesthetics-biomed-inc
 
 # Build settings
 markdown: kramdown
