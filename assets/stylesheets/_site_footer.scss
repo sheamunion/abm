@@ -44,8 +44,10 @@
 .social-media-links a:hover,
 .social-media-links a:active, {
     text-decoration: none;
+    padding-right: 10px;
+    font-size: 16px;
 }
 .social-media-links a:hover {
     color: darken($gray-dark, 15%);
 }
-.social-media-links a { padding-right: 10px; }
+// .social-media-links a {  }
