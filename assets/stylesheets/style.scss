@@ -199,6 +199,13 @@ address { margin: 0; }
 
 }
 
+.about-header p {
+    left: 50%;
+    top: 50%;
+    position: absolute;
+    width: 490px;
+}
+
 .vivace-header {
 		background-image: url('../img/vivace_header.png');
 		background-size: cover;
