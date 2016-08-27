@@ -22,18 +22,8 @@
 <!--
       ABOUT
  -->
-          {% if page.url == '/about.html' %}
-            <li class="active dropdown">
-          {% else %}
-            <li class="dropdown">
-          {% endif %}
-              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">About<span class="caret"></span></a>
-              <ul class="dropdown-menu">
-                <li><a href="/about">Us</a></li>
-                <li><a href="/about#mission">Mission</a></li>
-                <li><a href="/about#executive_team">Executive Team</a></li>
-                <li><a href="/about#advisors">Key Advisors</a></li>
-              </ul>
+            <li {% if page.url == '/about' %}class="active"{% endif %} >
+              <a href="/about">About</a>
             </li>
 <!--
       PRODUCTS
@@ -58,18 +48,10 @@
             </li>
 <!--
       REGULATORY
- --><!--
-          {% if page.url == '/regulatory.html' %}
-            <li class="active dropdown">
-          {% else %}
-            <li class="dropdown">
-          {% endif %}
-              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Regulatory<span class="caret"></span></a>
-              <ul class="dropdown-menu">
-                <li><a href="#services">Services</a></li>
-                <li><a href="#products">Products</a></li>
-              </ul>
-            </li>-->
+ -->
+            <li {% if page.url == '/regulatory' %}class="active"{% endif %} >
+              <a href="/regulatory">Regulatory</a>
+            </li>
 <!--
       MEDIA
  -->
