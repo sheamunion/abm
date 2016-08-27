@@ -28,23 +28,8 @@
 <!--
       PRODUCTS
  -->
-          {% if page.url == '/products.html' %}
-            <li class="active dropdown">
-          {% else %}
-            <li class="dropdown">
-          {% endif %}
-              <a href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Products<span class="caret"></span></a>
-              <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu">
-                <li class="dropdown-submenu">
-                  <a href="#">Vivace Experience<span class="caret"></span></a>
-                  <ul class="dropdown-menu">
-                    <li><a href="#boost">Boost</a></li>
-                    <li><a href="#glide">Glide</a></li>
-                  </ul>
-                </li>
-                <li><a href="/products/vivace">Vivace</a></li>
-                <li><a href="/products/all">All</a></li>
-              </ul>
+            <li {% if page.url == '/products/all' %}class="active"{% endif %} >
+              <a href="/products/all">Products</span></a>
             </li>
 <!--
       REGULATORY
