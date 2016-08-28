@@ -200,7 +200,8 @@ address { margin: 0; }
 
 }
 
-.about-header p {
+.about-header p,
+.contact-header p {
     left: 50%;
     top: 50%;
     position: absolute;
@@ -234,6 +235,18 @@ address { margin: 0; }
 
 .news-header {
 		background-image: url('../img/news_hero.png');
+		background-size: cover;
+	  background-repeat: no-repeat;
+	  background-position: center 60%;
+	  height: 90vh;
+
+	  @media (max-width: $grid-float-breakpoint) {
+				background-position: 35%;
+	  }
+}
+
+.contact-header {
+		background-image: url('../img/face_bw_about_4.png');
 		background-size: cover;
 	  background-repeat: no-repeat;
 	  background-position: center 60%;
