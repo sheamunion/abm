@@ -38,20 +38,14 @@
               <a href="/regulatory">Regulatory</a>
             </li>
 <!--
-      MEDIA
+      NEWS
  -->
-          {% if page.url == '/media.html' %}
-            <li class="active dropdown">
-          {% else %}
-            <li class="dropdown">
-          {% endif %}
-              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Media<span class="caret"></span></a>
-              <ul class="dropdown-menu">
-                <!-- <li><a href="#press">Press</a></li> -->
-                <li><a href="/news">News</a></li>
-                <!-- <li><a href="#mediakit">Media Kit</a></li> -->
-              </ul>
+            <li {% if page.url == '/news' %}class="active"{% endif %} >
+              <a href="/news">News</a>
             </li>
+<!--
+      CONTACT
+ -->
             <li {% if page.url == '/contact_us.html' %}class="active"{% endif %} >
               <a href="/contact_us">Contact</a>
             </li>
