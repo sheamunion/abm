@@ -61,6 +61,8 @@
 .line-height-5 { line-height: 5em; }
 
 .padding-0 { padding: 0 }
+.padding-20-0 { padding: 20px 0 }
+.padding-50-0 { padding: 50px 0 }
 .padding-left-3 { padding-left: 3em; }
 .padding-right-1 { padding-right: 1em; }
 
@@ -201,11 +203,13 @@ address { margin: 0; }
 }
 
 .about-header p,
-.contact-header p {
+.contact-header p,
+.regulatory-header p {
     left: 50%;
-    top: 50%;
+    top: 70%;
     position: absolute;
     width: 490px;
+    font-style: bold;
 }
 
 .vivace-header {
@@ -221,7 +225,7 @@ address { margin: 0; }
 	  }
 }
 
-.reg-header {
+.regulatory-header {
 		background-image: url('../img/regulatory_hero_bw_compressed.jpg');
 		background-size: cover;
 	  background-repeat: no-repeat;
@@ -234,7 +238,7 @@ address { margin: 0; }
 }
 
 .news-header {
-		background-image: url('../img/news_hero_compressed.jpg');
+		background-image: url('../img/news_hero_compressed_bw.jpg');
 		background-size: cover;
 	  background-repeat: no-repeat;
 	  background-position: center 60%;
@@ -247,6 +251,18 @@ address { margin: 0; }
 
 .contact-header {
 		background-image: url('../img/face_bw_about_4.png');
+		background-size: cover;
+	  background-repeat: no-repeat;
+	  background-position: center 60%;
+	  height: 90vh;
+
+	  @media (max-width: $grid-float-breakpoint) {
+				background-position: 35%;
+	  }
+}
+
+.micro-header {
+		background-image: url('../img/fpo.png');
 		background-size: cover;
 	  background-repeat: no-repeat;
 	  background-position: center 60%;
