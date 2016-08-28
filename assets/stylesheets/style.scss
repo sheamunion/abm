@@ -204,7 +204,8 @@ address { margin: 0; }
 
 .about-header p,
 .contact-header p,
-.regulatory-header p {
+.regulatory-header p,
+.vivace-header p {
     left: 60%;
     top: 85%;
     position: absolute;
@@ -212,8 +213,18 @@ address { margin: 0; }
     font-style: bold;
 }
 
+.vivace-header p {
+    width: 520px;
+    left: 50%;
+    top: 75%;
+    color: $gray-base;
+    font-size: 3em;
+		font-style: italic;
+		font-family: serif;
+}
+
 .vivace-header {
-		background-image: url('../img/vivace_header.png');
+		background-image: url('../img/vivace_header_no_bg.jpg');
 		background-size: cover;
 	  background-repeat: no-repeat;
 	  background-position: center 60%;
