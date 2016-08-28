@@ -203,11 +203,13 @@ address { margin: 0; }
 }
 
 .about-header p,
-.contact-header p {
+.contact-header p,
+.regulatory-header p {
     left: 50%;
-    top: 50%;
+    top: 70%;
     position: absolute;
     width: 490px;
+    font-style: bold;
 }
 
 .vivace-header {
@@ -223,7 +225,7 @@ address { margin: 0; }
 	  }
 }
 
-.reg-header {
+.regulatory-header {
 		background-image: url('../img/regulatory_hero_bw_compressed.jpg');
 		background-size: cover;
 	  background-repeat: no-repeat;
