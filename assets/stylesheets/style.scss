@@ -233,6 +233,28 @@ address { margin: 0; }
 	  }
 }
 
+.vivace-header img {
+    position: absolute;
+    width: 490px;
+    max-width: 100%;
+    z-index: 1000;
+  	padding: 8px;
+
+	  @media (min-width: $screen-xs) and (max-width: $screen-sm) {
+    		left: 50%;
+		  	top: 87%;
+		  	width: 322px;
+	  }
+
+	  @media (min-width: $screen-sm) {
+  	    left: 54%;
+    		top: 44%;
+	  }
+
+}
+
+
+
 .regulatory-header {
 		background-image: url('../img/regulatory_hero_bw_compressed.jpg');
 		background-size: cover;
