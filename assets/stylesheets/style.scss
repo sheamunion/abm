@@ -4,6 +4,7 @@
 @import"bootstrap";
 @import"site_footer";
 @import"hero";
+@import "https://fonts.googleapis.com/css?family=Open+Sans:400,700";
 
 @font-face {
     font-family: 'newsGothicStd';
@@ -170,6 +171,58 @@ ul.posts .date {
 
 address { margin: 0; }
 
+// .about-header img {
+//     position: absolute;
+//     width: 490px;
+//     max-width: 100%;
+//     z-index: 1000;
+//   	padding: 8px;
+
+// 	  @media (min-width: $screen-xs) and (max-width: $screen-sm) {
+//     		left: 50%;
+// 		  	top: 87%;
+// 		  	width: 322px;
+// 	  }
+
+// 	  @media (min-width: $screen-sm) {
+// 		  	left: 50%;
+// 		  	top: 50%;
+// 	  }
+
+// }
+
+.landing-header p,
+.about-header p,
+.contact-header p,
+.regulatory-header p,
+.vivace-header p,
+.experience-header p {
+		font-family: 'Open Sans', sans-serif;
+    left: 60%;
+    top: 85%;
+    position: absolute;
+    width: 490px;
+    font-weight: bold;
+    font-size: 2em;
+}
+
+.landing-header p {
+    left: 0%;
+    top: 70%;
+}
+
+.about-header p {
+    left: 55%;
+    top: 75%;
+}
+
+.vivace-header p {
+    color: $gray-base;
+    width: 526px;
+    left: 55%;
+    top: 80%;
+}
+
 .about-header {
 		background-image: url('../img/about_hero.png');
 		background-size: cover;
@@ -180,45 +233,6 @@ address { margin: 0; }
 	  @media (max-width: $grid-float-breakpoint) {
 				background-position: 35%;
 	  }
-}
-
-.about-header img {
-    position: absolute;
-    width: 490px;
-    max-width: 100%;
-    z-index: 1000;
-  	padding: 8px;
-
-	  @media (min-width: $screen-xs) and (max-width: $screen-sm) {
-    		left: 50%;
-		  	top: 87%;
-		  	width: 322px;
-	  }
-
-	  @media (min-width: $screen-sm) {
-		  	left: 50%;
-		  	top: 50%;
-	  }
-
-}
-
-.about-header p,
-.contact-header p,
-.regulatory-header p,
-.vivace-header p,
-.experience-header p {
-    left: 60%;
-    top: 85%;
-    position: absolute;
-    width: 490px;
-    font-style: bold;
-}
-
-.vivace-header p {
-    width: 520px;
-    left: 50%;
-    top: 75%;
-    color: $gray-base;
 }
 
 .vivace-header {
@@ -268,7 +282,7 @@ address { margin: 0; }
 
 
 .regulatory-header {
-		background-image: url('../img/regulatory_hero_bw_compressed.jpg');
+		background-image: url('../img/regulatory_hero_bw_compressed_blended.jpg');
 		background-size: cover;
 	  background-repeat: no-repeat;
 	  background-position: center 60%;
