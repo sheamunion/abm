@@ -6,6 +6,18 @@
 @import"hero";
 @import "https://fonts.googleapis.com/css?family=Open+Sans:400,700";
 
+.carousel .item {
+		height: 600px;
+}
+
+.carousel .item img {
+		height: 400px
+}
+
+.carousel-caption {
+		bottom: 80px;
+}
+
 @font-face {
     font-family: 'newsGothicStd';
     src: url(../fonts/news_gothic_std.otf);

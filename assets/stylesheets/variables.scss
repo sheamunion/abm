@@ -156,10 +156,20 @@ $btn-default-color:              #333 !default;
 $btn-default-bg:                 #fff !default;
 $btn-default-border:             #ccc !default;
 
-$btn-primary-color:              #fff !default;
+// $btn-primary-color:              #fff !default;
+// // $btn-primary-bg:                 $brand-primary !default;
+// $btn-primary-bg:                 $skin-tone !default;
+// $btn-primary-border:             darken($btn-primary-bg, 5%) !default;
+
+// Invert the colors for btn-primary
+
+$btn-primary-color:              $skin-tone !default;
 // $btn-primary-bg:                 $brand-primary !default;
-$btn-primary-bg:                 $skin-tone !default;
-$btn-primary-border:             darken($btn-primary-bg, 5%) !default;
+$btn-primary-bg:                 #fff !default;
+$btn-primary-border:             $skin-tone !default;
+
+
+
 
 $btn-success-color:              #fff !default;
 $btn-success-bg:                 $brand-success !default;
@@ -180,9 +190,13 @@ $btn-danger-border:              darken($btn-danger-bg, 5%) !default;
 $btn-link-disabled-color:        $gray-light !default;
 
 // Allows for customizing button radius independently from global border radius
-$btn-border-radius-base:         $border-radius-base !default;
-$btn-border-radius-large:        $border-radius-large !default;
-$btn-border-radius-small:        $border-radius-small !default;
+// $btn-border-radius-base:         $border-radius-base !default;
+// $btn-border-radius-large:        $border-radius-large !default;
+// $btn-border-radius-small:        $border-radius-small !default;
+
+$btn-border-radius-base:         0;
+$btn-border-radius-large:        0;
+$btn-border-radius-small:        0;
 
 
 //== Forms
@@ -819,8 +833,8 @@ $carousel-control-width:                      15% !default;
 $carousel-control-opacity:                    .5 !default;
 $carousel-control-font-size:                  20px !default;
 
-$carousel-indicator-active-bg:                #fff !default;
-$carousel-indicator-border-color:             #fff !default;
+$carousel-indicator-active-bg:                $skin-tone !default; // #fff !default;
+$carousel-indicator-border-color:             $skin-tone !default; // #fff !default;
 
 $carousel-caption-color:                      #fff !default;
 
