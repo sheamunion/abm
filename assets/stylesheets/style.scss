@@ -217,12 +217,33 @@ address { margin: 0; }
 }
 
 .products-header p {
-    left: 4%;
-    top: 70%
+
+		left: 12%;
+    top: 77%;
+
+  	@media (min-width: 550px) and (max-width: 700px) {
+		    left: 68%;
+		    top: 68%;
+  	}
+  	@media (min-width: 701px) {
+			  left: 4%;
+			  top: 70%;
+		}
 }
 
 #product-btns {
-    margin: 23% 73%;
+
+		margin: 300px 4%;
+
+	  @media (min-width: 350px) and (max-width: 550px) {
+				margin: 375px 4%;
+  	}
+  	@media (min-width: 550px) and (max-width: 700px) {
+  			margin: 23% 30%;
+  	}
+  	@media (min-width: 701px) {
+  			margin: 23% 73%;
+  	}
 }
 
 .vivace-header p {

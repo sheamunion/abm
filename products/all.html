@@ -19,9 +19,20 @@ permalink: /products/all
   <div class="jumbotron products-header">
     <p class="text-white font-effect-3d-float">Experience The Results &#8482;</p>
     <div id="product-btns">
-      <a class="btn btn-lg btn-primary margin-bottom-1" href="/products/vivace-experience" role="button">The Vivace Experience</a><br>
-      <a class="btn btn-lg btn-primary margin-bottom-1" href="/products/vivace" role="button">The Vivace</a><br>
-      <a class="btn btn-lg btn-primary" href="/products/microneedling" role="button">Microneedling in High Demand</a>
+
+      <!--
+          Hide large buttons on XS screens
+       -->
+      <a class="hidden-xs btn btn-lg btn-primary margin-bottom-1" href="/products/vivace-experience" role="button">The Vivace Experience</a><br>
+      <a class="hidden-xs btn btn-lg btn-primary margin-bottom-1" href="/products/vivace" role="button">The Vivace</a><br>
+      <a class="hidden-xs btn btn-lg btn-primary" href="/products/microneedling" role="button">Microneedling in High Demand</a>
+
+      <!--
+          Show small buttons on XS screens
+       -->
+      <a class="visible-xs-block btn btn-sm btn-primary" href="/products/vivace-experience" role="button">The Vivace Experience</a><br>
+      <a class="visible-xs-block btn btn-sm btn-primary" href="/products/vivace" role="button">The Vivace</a><br>
+      <a class="visible-xs-block btn btn-sm btn-primary" href="/products/microneedling" role="button">Microneedling in High Demand</a>
     </div>
   </div>
 </main>
