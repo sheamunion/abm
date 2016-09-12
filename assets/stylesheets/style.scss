@@ -277,7 +277,18 @@ address { margin: 0; }
 
 }
 
-.products-header,
+.products-header {
+		background-image: url('../img/experience_hero_bw.jpg');
+		background-size: cover;
+	  background-repeat: no-repeat;
+	  background-position: center 60%;
+	  height: 90vh;
+
+	  @media (max-width: $grid-float-breakpoint) {
+				background-position: 35%;
+	  }
+}
+
 .experience-header {
 		background-image: url('../img/experience_hero.jpg');
 		background-size: cover;
