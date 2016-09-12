@@ -6,18 +6,6 @@
 @import"hero";
 @import "https://fonts.googleapis.com/css?family=Open+Sans:400,700";
 
-.carousel .item {
-		height: 600px;
-}
-
-.carousel .item img {
-		height: 400px
-}
-
-.carousel-caption {
-		bottom: 80px;
-}
-
 @font-face {
     font-family: 'newsGothicStd';
     src: url(../fonts/news_gothic_std.otf);
@@ -234,8 +222,7 @@ address { margin: 0; }
 }
 
 #product-btns {
-    width: 400px;
-    margin: 25% 73%;
+    margin: 23% 73%;
 }
 
 .vivace-header p {
@@ -246,7 +233,7 @@ address { margin: 0; }
 }
 
 .about-header {
-		background-image: url('../img/about_hero.png');
+		background-image: url('../img/about_hero_compressed_again.jpg');
 		background-size: cover;
 	  background-repeat: no-repeat;
 	  background-position: center 60%;
