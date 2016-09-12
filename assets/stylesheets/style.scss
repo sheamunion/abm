@@ -208,7 +208,8 @@ address { margin: 0; }
 .contact-header p,
 .regulatory-header p,
 .vivace-header p,
-.experience-header p {
+.experience-header p,
+.products-header p {
 		font-family: 'Open Sans', sans-serif;
     left: 60%;
     top: 85%;
@@ -225,6 +226,16 @@ address { margin: 0; }
 .about-header p {
     left: 38%;
     top: 80%;
+}
+
+.products-header p {
+    left: 4%;
+    top: 70%
+}
+
+#product-btns {
+    width: 400px;
+    margin: 25% 73%;
 }
 
 .vivace-header p {
@@ -279,6 +290,7 @@ address { margin: 0; }
 
 }
 
+.products-header,
 .experience-header {
 		background-image: url('../img/experience_hero.jpg');
 		background-size: cover;
