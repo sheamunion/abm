@@ -204,6 +204,16 @@ address { margin: 0; }
     position: absolute;
     font-weight: bold;
     font-size: 2em;
+
+		@media (max-width: 376px) {
+				left: 12%;
+		    top: 84%;
+		}
+
+    @media (min-width: 377px) and (max-width: 550px) {
+				left: 12%;
+		    top: 77%;
+    }
 }
 
 .landing-header p {
