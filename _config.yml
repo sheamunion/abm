@@ -25,3 +25,5 @@ linkedin_username: aesthetics-biomed-inc
 markdown: kramdown
 sass:
   sass_dir: assets/stylesheets
+
+exclude: ['config.ru', 'Gemfile', 'Gemfile.lock', 'vendor']
