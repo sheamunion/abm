@@ -26,4 +26,5 @@ markdown: kramdown
 sass:
   sass_dir: assets/stylesheets
 
+# stop Jekyll including your configuration in it’s generated site
 exclude: ['config.ru', 'Gemfile', 'Gemfile.lock', 'vendor']
