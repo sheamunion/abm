@@ -15,7 +15,7 @@ description: > # this means to ignore newlines until "baseurl:"
   clearance expertise, and worldwide distribution solutions for
   entrepreneurs, domestic, and international companies.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://yourdomain.com" # the base hostname & protocol for your site
+url: "http://aestheticsbiomed.com" # the base hostname & protocol for your site
 twitter_username: aestheticsbiomed
 facebook_username: aestheticsbiomed
 youtube_username: aestheticsbiomed
@@ -28,3 +28,5 @@ sass:
 
 # stop Jekyll including your configuration in it’s generated site
 exclude: ['config.ru', 'Gemfile', 'Gemfile.lock', 'vendor']
+gems:
+  - jekyll-sitemap
