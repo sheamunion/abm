@@ -16,9 +16,9 @@ description: > # this means to ignore newlines until "baseurl:"
   entrepreneurs, domestic, and international companies.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://aestheticsbiomed.com" # the base hostname & protocol for your site
-twitter_username: aestheticsbiomed
+# twitter_username: aestheticsbiomed
 facebook_username: aestheticsbiomed
-youtube_username: aestheticsbiomed
+#youtube_username: aestheticsbiomed
 linkedin_username: aesthetics-biomed-inc
 
 # Build settings
