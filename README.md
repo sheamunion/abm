@@ -1,1 +1,1 @@
-# &copy; 2013 - Now. Aesthetics BioMedical, Inc. All Rights Reserved.
+# &copy; 2013 - Now. Aesthetics Biomedical, Inc. All Rights Reserved.
