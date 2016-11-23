@@ -13,5 +13,20 @@ Aesthetics Biomedical Chief Regulatory Officer Tim Duggins and CEO MaryAnn Guerr
 
 In the existing directives there are only a small handful of defined regulatory terms; in April 2017, there will be 72 terms. The Essential Requirements (key safety requirements) are covered in eight pages; in April 2017, there will 30 to 35 pages of general safety and efficacy requirements. The reality - there are five times as many regulatory pages and less than half the number of notified bodies accredited then before. In short huge changes and few options for manufacturers. The EU commission recognizes that as many as 50 percent of the companies carrying the CE mark now will not be able to do so in April 2017 and the resulting turmoil is needed to gain the necessary safety improvements.
 
-"ABM's executive and regulatory teams were well represented at a meeting in Prague this week, where these changes were discussed for the first time. In fact, we had representation in both the medical and the cosmetic presentations. At its inception, ABM recognized that a fully internalized and well-resourced regulatory team would be key contributor to its growth. ABM had the foresight to begin implementing the required changes more than six months ago, and is well prepared so much so in fact many requirements have already been addressed," says Duggins. There will be no disruptions in ABM's regulatory compliance; business as usual! The pursuit of skin perfection continues unabated!
+"ABM's executive and regulatory teams were well represented at a meeting in Prague this week, where these changes were discussed for the first time. In fact, we had representation in both the medical and the cosmetic presentations. At its inception, ABM recognized that a fully internalized and well-resourced regulatory team would be key contributor to its growth. ABM had the foresight to begin implementing the required changes more than six months ago, and is well prepared so much so in fact many requirements have already been addressed," says Duggins.
+
+<div class="pull-left">
+  <img class="img-responsive" src="/assets/img/posts/eu_post_1.jpg">
+  <br>
+</div>
+<div class="pull-left">
+  <img class="img-responsive" src="/assets/img/posts/eu_post_2.jpg">
+  <br>
+</div>
+<div class="pull-left">
+  <img class="img-responsive" src="/assets/img/posts/eu_post_3.jpg">
+  <br>
+</div>
+
+There will be no disruptions in ABM's regulatory compliance; business as usual! The pursuit of skin perfection continues unabated!
 
