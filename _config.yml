@@ -16,10 +16,12 @@ description: > # this means to ignore newlines until "baseurl:"
   entrepreneurs, domestic, and international companies.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://aestheticsbiomed.com" # the base hostname & protocol for your site
-# twitter_username: aestheticsbiomed
+twitter_username: aestheticsbm
 facebook_username: aestheticsbiomed
-#youtube_username: aestheticsbiomed
+youtube_username: UCmgQzTwO2dY6vrx9VadAMoQ
 linkedin_username: aesthetics-biomed-inc
+instagram_username: aestheticsbiomed
+googleplus_username: 106690870889097201896
 
 # Build settings
 markdown: kramdown
