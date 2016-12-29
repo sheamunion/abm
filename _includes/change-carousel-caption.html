@@ -4,6 +4,7 @@
   var captionTwo = "This woman improved her Visia wrinkle score from the 41st percentile to the 76th percentile with one treatment for The Vivace.";
   var captionThree = "This woman improved her Visia UV damage score from the 48th percentile to the 81st percentile, showing impressive improvement following one Vivace treatment."
   var captionFour = "This woman improved her Visia texture score from the 41st percentile to 72nd percentile with one Vivace treatment."
+  var captionFive = "Courtesy of Stephen Rath, MD, DABA, Ruidoso, NM <br><a href=\"http://www.fusionmedicalspa.net\" target=\"_blank\" rel=\"noopener noreferrer\">fusionmedicalspa.net</a>"
 
   $().ready(function(){
       $('#carousel-example-generic').on('slid.bs.carousel', function () {
@@ -16,6 +17,8 @@
               $('#main-caption').text(captionThree);
           } else if (activeSlideId == "four") {
               $('#main-caption').text(captionFour);
+          } else if (activeSlideId == "five") {
+              $('#main-caption').html(captionFive);
           } else {
               $('#main-caption').text(defaultCaption);
           }
